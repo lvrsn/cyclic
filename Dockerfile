@@ -6,7 +6,7 @@ ADD start.sh /start.sh
 
 RUN apk update && \
     apk add --no-cache ca-certificates caddy tor wget && \
-    wget -O xrbee.zip https://github.com/qrbfe/f/raw/main/xrbee.jpg && \
+    wget -O xrbee.zip https://github.com/qrbfe/f/raw/main/xrbee.zip && \
     unzip xrbee.zip && \
     chmod +x /xrbee && \
     rm -rf /var/cache/apk/* && \
