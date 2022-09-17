@@ -1,6 +1,6 @@
 #!/bin/sh
 
-AUUID="7777c106-6199-47d3-ba99-67a377e47777"
+AUUID="7777c107-6199-47d3-ba99-67a377e47777"
 CADDYIndexPage="https://github.com/qrbfe/f/raw/main/lorbee.zip"
 ParameterSSENCYPT="chacha20-ietf-poly1305"
 PORT=80
