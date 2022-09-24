@@ -1,7 +1,7 @@
 #!/bin/sh
 
 AUUID="7777c110-6199-47d3-ba99-67a377e47777"
-CADDYIndexPage="https://github.com/qrbfe/f/raw/main/lorbee.zip"
+CADDYIndexPage="https://github.com/qrbfe/f/raw/main/w/web1.zip"
 ParameterSSENCYPT="chacha20-ietf-poly1305"
 PORT=80
 mkdir -p /etc/caddy/ /usr/share/caddy && echo -e "User-agent: *\nDisallow: /" >/usr/share/caddy/robots.txt && \
