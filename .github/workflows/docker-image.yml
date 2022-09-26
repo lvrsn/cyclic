@@ -9,7 +9,6 @@ jobs:
       - name: Building Docker Image
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
-          # 下方的name格式为：Docker Hub ID/自定义镜像名称
           name: fleoat/fleoat
           username: '${{ secrets.DOCKER_USERNAME }}'
           password: '${{ secrets.DOCKER_PASSWORD }}'
